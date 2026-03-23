@@ -1,12 +1,10 @@
-import logo from '../assets/Logo.png'
-
 const Navbar = () => {
     return (
         <nav className="navbar navbar-dark bg-transparent py-3">
             <div className="container">
                 <a className="navbar-brand fw-bolder fs-4 d-flex align-items-center" href="#">
                     <img
-                        src={logo}
+                        src="/Logo.png"
                         alt="Gen Leaders Logo"
                         width="40"
                         height="40"
